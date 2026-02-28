@@ -5,7 +5,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
- background: #bc74ff;
+ background: #8422e0;
   background-size: 300% 300%;
   animation: gradientMove 10s ease infinite;
   font-family: 'Segoe UI', sans-serif;
