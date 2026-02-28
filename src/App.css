@@ -1,11 +1,9 @@
-
 html, body {
   height: 100%;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #d9b1ff;
   background-size: 300% 300%;
   animation: gradientMove 10s ease infinite;
   font-family: 'Segoe UI', sans-serif;
@@ -51,7 +49,6 @@ html, body {
   -webkit-text-fill-color: transparent;
 }
 
-
 .entered-name {
   text-align: center;
   color: #38bdf8;
@@ -81,7 +78,6 @@ html, body {
 .registration-input::placeholder {
   color: rgba(255,255,255,0.6);
 }
-
 
 .registration-input:focus,
 .input:focus {
