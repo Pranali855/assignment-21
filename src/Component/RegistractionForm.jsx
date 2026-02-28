@@ -4,7 +4,8 @@ export default function RegistrationForm() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    password: ""
+    password: "",
+    city: ''
   });
 
   const handleChange = (e) => {
@@ -23,7 +24,11 @@ export default function RegistrationForm() {
   return (
     <div className="registration-container">
       <h2 className="registration-title">Registration Form</h2>
-      {formData.name && <p className="entered-name">Hii {formData.name}</p>}
+
+      {formData.city && (
+        <p className="entered-name">Your city is  {formData.city} ❤️</p>
+      )}
+
       <form onSubmit={handleSubmit} className="registration-form">
 
         <input
@@ -53,9 +58,28 @@ export default function RegistrationForm() {
           className="registration-input"
         />
 
-        <button type="submit" className="registration-button">Register</button>
+        <div>
+          <select
+            name="city"
+            value={formData.city}
+            className="input"
+            onChange={handleChange}
+          >
+            <option value="">Select your city</option>
+            <option value="loni">loni</option>
+            <option value="nagpur">nagpur</option>
+            <option value="pune">pune</option>
+            <option value="mumbai">mumbai</option>
+            <option value="chennai">chennai</option>
+          </select>
+        </div>
+
+        <button type="submit" className="registration-button">
+          Register
+        </button>
+
       </form>
-        
-      </div>
+
+    </div>
   );
 }
