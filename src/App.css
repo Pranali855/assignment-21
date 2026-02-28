@@ -85,7 +85,7 @@ html, body {
 
 .registration-input:focus,
 .input:focus {
-  border-color: #38bdf8;
+  border-color: #b8eaff;
   box-shadow: 0 0 10px white;
   transform: scale(1.02);
 }
