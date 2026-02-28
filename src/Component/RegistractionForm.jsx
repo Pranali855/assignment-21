@@ -26,7 +26,7 @@ export default function RegistrationForm() {
       <h2 className="registration-title">Registration Form</h2>
 
       {formData.city && (
-        <p className="entered-name">Your city is  {formData.city} </p>
+        <p className="entered-name">Your city is  {formData.city} ❤️</p>
       )}
 
       <form onSubmit={handleSubmit} className="registration-form">
