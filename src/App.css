@@ -86,7 +86,7 @@ html, body {
 .registration-input:focus,
 .input:focus {
   border-color: #b8eaff;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.712);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.568);
   transform: scale(1.02);
 }
 
@@ -98,7 +98,7 @@ html, body {
   font-weight: bold;
   cursor: pointer;
   background: linear-gradient(90deg, #3b82f6, #9333ea);
-  color: white;
+  color: rgba(255, 255, 255, 0.452);
   transition: 0.3s;
 }
 
